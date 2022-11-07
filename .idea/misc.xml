@@ -7,15 +7,19 @@
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/rounded_edittext.xml" value="0.3265" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.24765625" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout-w936dp/activity_login.xml" value="0.290234375" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_community.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_lifestyle_articles.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_news_articles.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login.xml" value="0.38697916666666665" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login2.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main2.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_community.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_community_post.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_lifestyle_article.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_lifestyle_articles.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_news_article.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2095" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/InfloraTest/app/src/main/res/layout/activity_login2.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/InfloraTest/app/src/main/res/layout/activity_main2.xml" value="0.33" />
       </map>
     </option>
   </component>
