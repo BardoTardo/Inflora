@@ -1,4 +1,4 @@
-package com.example.inflora;
+package com.inflora;
 
 import org.junit.Test;
 

@@ -3,24 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/login_rounded_bg.xml" value="0.2855" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/rounded_edittext.xml" value="0.3265" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.24765625" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout-w936dp/activity_login.xml" value="0.290234375" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login.xml" value="0.38697916666666665" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login2.xml" value="0.25" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main2.xml" value="0.38697916666666665" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_community.xml" value="0.38697916666666665" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_show_lifestyle_articles.xml" value="0.38697916666666665" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2095" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/drawable/lifestyle.xml" value="0.1945" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_news_articles.xml" value="0.1361111111111111" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_drawer_base.xml" value="0.18" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/layout/content_layout.xml" value="0.1361111111111111" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/layout/main_drawer_header.xml" value="0.1" />
-        <entry key="..\:/Users/Estrid/AndroidStudioProjects/Inflora/app/src/main/res/menu/main_drawer_menu.xml" value="0.1361111111111111" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/drawable/feedback.xml" value="0.209" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/drawable/login_rounded_bg.xml" value="0.288" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/drawable/rounded_edittext.xml" value="0.288" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_display_lifestyle_articles.xml" value="0.2015625" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_display_news_articles.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_drawer_base.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_main.xml" value="0.3671794871794872" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/content_layout.xml" value="0.2015625" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/layout/main_drawer_header.xml" value="0.2015625" />
+        <entry key="..\:/AndroidStudioProjects/Inflora2/app/src/main/res/menu/main_drawer_menu.xml" value="0.2015625" />
       </map>
     </option>
   </component>
