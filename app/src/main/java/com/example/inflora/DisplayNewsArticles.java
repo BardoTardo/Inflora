@@ -3,11 +3,16 @@ package com.example.inflora;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DisplayNewsArticles extends AppCompatActivity {
+import com.example.inflora.databinding.ActivityDisplayNewsArticlesBinding;
 
+public class DisplayNewsArticles extends DrawerBase {
+
+    ActivityDisplayNewsArticlesBinding activityDisplayNewsArticlesBinding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_news_articles);
+        activityDisplayNewsArticlesBinding = ActivityDisplayNewsArticlesBinding.inflate(getLayoutInflater());
+        setContentView(activityDisplayNewsArticlesBinding.getRoot());
+        allocatedActivityTitle("INFLORA");
     }
 }

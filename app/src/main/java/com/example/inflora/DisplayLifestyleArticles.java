@@ -3,11 +3,17 @@ package com.example.inflora;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DisplayLifestyleArticles extends AppCompatActivity {
+import com.example.inflora.databinding.ActivityDisplayLifestyleArticlesBinding;
+
+public class DisplayLifestyleArticles extends DrawerBase {
+
+    ActivityDisplayLifestyleArticlesBinding activityDisplayLifestyleArticlesBinding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_lifestyle_articles);
+        activityDisplayLifestyleArticlesBinding = ActivityDisplayLifestyleArticlesBinding.inflate(getLayoutInflater());
+        setContentView(activityDisplayLifestyleArticlesBinding.getRoot());
+        allocatedActivityTitle("INFLORA");
     }
 }
