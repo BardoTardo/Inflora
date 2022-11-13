@@ -1,4 +1,4 @@
-package com.inflora;
+package com.inflora.app;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.inflora", appContext.getPackageName());
+        assertEquals("com.example.inflora", appContext.getPackageName());
     }
 }

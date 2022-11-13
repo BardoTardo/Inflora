@@ -1,9 +1,8 @@
-package com.inflora;
+package com.inflora.app;
 
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-import com.inflora.databinding.ActivityMainBinding;
+import com.example.inflora.databinding.ActivityMainBinding;
 
 public class MainActivity extends DrawerBase {
 

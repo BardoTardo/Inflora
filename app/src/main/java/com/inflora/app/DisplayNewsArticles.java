@@ -1,12 +1,12 @@
-package com.inflora;
+package com.inflora.app;
 
 import android.os.Bundle;
 
-import com.inflora.databinding.ActivityDisplayNewsArticlesBinding;
+import com.example.inflora.databinding.ActivityDisplayNewsArticlesBinding;
 
 public class DisplayNewsArticles extends DrawerBase {
-
     ActivityDisplayNewsArticlesBinding activityDisplayNewsArticlesBinding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

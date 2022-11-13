@@ -1,8 +1,8 @@
-package com.inflora;
+package com.inflora.app;
 
 import android.os.Bundle;
 
-import com.inflora.databinding.ActivityDisplayLifestyleArticlesBinding;
+import com.example.inflora.databinding.ActivityDisplayLifestyleArticlesBinding;
 
 public class DisplayLifestyleArticles extends DrawerBase {
 
