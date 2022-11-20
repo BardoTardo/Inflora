@@ -1,15 +1,14 @@
-package com.inflora.app.newsfragment;
+package com.inflora.app.lifestylefragment;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.example.inflora.R;
 import com.google.firebase.database.DataSnapshot;
@@ -46,49 +45,11 @@ public class TopFragment extends Fragment {
 
         readArticles();
 
-        /**
-        button = view.findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ref.child("Sus").setValue("Sususus");
-                Toast.makeText(getContext(), "button works", Toast.LENGTH_SHORT).show();
-            }
-        });**/
-
-        /**
-        listView = view.findViewById(R.id.listView);
-
-        ArrayList<String> list = new ArrayList<>();
-        ArrayAdapter adapter = new ArrayAdapter<String>(getContext(),R.layout.list_item, list);
-        listView.setAdapter(adapter);
-
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("News");
-        ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                list.clear();
-                for (DataSnapshot snapshot1 : snapshot.getChildren()){
-                    ArticleInformation info = snapshot1.getValue(ArticleInformation.class);
-                    String txt = info.getTitle() + "\n" + info.getContent() + "\n" + info.getViews() + "\n" + info.getDate();
-                    Log.d("Document", txt);
-                    list.add(txt);
-                }
-                adapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-        **/
-
         return view;
     }
 
     private void readArticles() {
-        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("News");
+        DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Lifestyle");
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

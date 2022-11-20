@@ -5,13 +5,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.inflora.app.newsfragment.TopFragment;
-import com.inflora.app.newsfragment.CommunityFragment;
-import com.inflora.app.newsfragment.NewFragment;
+import com.inflora.app.lifestylefragment.TopFragment;
+import com.inflora.app.lifestylefragment.CommunityFragment;
+import com.inflora.app.lifestylefragment.NewFragment;
 
-public class NewsViewPagerAdapter extends FragmentStateAdapter {
+public class LifestyleViewPagerAdapter extends FragmentStateAdapter {
 
-    public NewsViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
+    public LifestyleViewPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
 

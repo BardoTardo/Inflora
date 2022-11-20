@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 import com.example.inflora.R;
 
-public class communityFragment extends Fragment {
+public class CommunityFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

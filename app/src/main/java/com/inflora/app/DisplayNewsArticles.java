@@ -51,8 +51,5 @@ public class DisplayNewsArticles extends DrawerBase {
                 tabLayout.getTabAt(position).select();
             }
         });
-
-
-
     }
 }
