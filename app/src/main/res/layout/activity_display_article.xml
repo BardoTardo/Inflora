@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inflora.app.DisplayArticle"
+    android:background="@color/green3">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:id="@+id/articleImage"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="@drawable/image_shadow"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="left|top"
+        android:layout_margin="20sp"
+        app:layout_constraintStart_toStartOf="@id/articleImage"
+        app:layout_constraintTop_toTopOf="@id/articleImage">
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#FBFBFB"
+            android:layout_gravity="top|left"
+            android:shadowColor="#7F000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/articleDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        app:layout_constraintEnd_toEndOf="@id/articleImage"
+        app:layout_constraintBottom_toBottomOf="@id/articleImage"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FBFBFB"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+
+    <TextView
+        android:id="@+id/articleViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Views"
+        app:layout_constraintTop_toBottomOf="@id/articleDate"
+        app:layout_constraintEnd_toStartOf="@id/viewsText"
+        android:layout_marginRight="5dp"
+        android:gravity="left"
+        android:textColor="#FBFBFB"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+    <TextView
+        android:id="@+id/viewsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="views"
+        app:layout_constraintTop_toBottomOf="@id/articleDate"
+        app:layout_constraintEnd_toEndOf="@id/articleDate"
+        android:textColor="#FBFBFB"
+        android:shadowColor="#7F000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/articleImage">
+
+        <TextView
+            android:id="@+id/articleContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

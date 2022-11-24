@@ -8,6 +8,7 @@
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/customborder.xml" value="0.3585" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/feedback.xml" value="0.288" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/image_shadow.xml" value="0.3585" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/lifestyle.xml" value="0.209" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/login_rounded_bg.xml" value="0.209" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/logout.xml" value="0.209" />
@@ -16,13 +17,14 @@
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/rounded_edittext.xml" value="0.288" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/settings.xml" value="0.209" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/drawable/wallet.xml" value="0.209" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_article.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_lifestyle_articles.xml" value="0.2015625" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_display_news_articles.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_drawer_base.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_login.xml" value="0.2015625" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/activity_register.xml" value="0.2015625" />
-        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/article_item.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/article_item.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/content_layout.xml" value="0.2015625" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/fragment_community.xml" value="0.3729166666666667" />
         <entry key="..\:/AndroidStudioProjects/Inflora/app/src/main/res/layout/fragment_new.xml" value="0.38697916666666665" />

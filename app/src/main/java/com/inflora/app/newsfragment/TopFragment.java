@@ -34,7 +34,6 @@ public class TopFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_top, container, false);
-        //DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Amogus");
 
         recyclerView = view.findViewById(R.id.recyclerViewNewsTitle);
         recyclerView.setHasFixedSize(true);
@@ -45,44 +44,6 @@ public class TopFragment extends Fragment {
         recyclerView.setAdapter(articleAdapter);
 
         readArticles();
-
-        /**
-        button = view.findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ref.child("Sus").setValue("Sususus");
-                Toast.makeText(getContext(), "button works", Toast.LENGTH_SHORT).show();
-            }
-        });**/
-
-        /**
-        listView = view.findViewById(R.id.listView);
-
-        ArrayList<String> list = new ArrayList<>();
-        ArrayAdapter adapter = new ArrayAdapter<String>(getContext(),R.layout.list_item, list);
-        listView.setAdapter(adapter);
-
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("News");
-        ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                list.clear();
-                for (DataSnapshot snapshot1 : snapshot.getChildren()){
-                    ArticleInformation info = snapshot1.getValue(ArticleInformation.class);
-                    String txt = info.getTitle() + "\n" + info.getContent() + "\n" + info.getViews() + "\n" + info.getDate();
-                    Log.d("Document", txt);
-                    list.add(txt);
-                }
-                adapter.notifyDataSetChanged();
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-        **/
 
         return view;
     }

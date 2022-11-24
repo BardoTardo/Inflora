@@ -34,7 +34,6 @@ public class NewFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_new, container, false);
-        //DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Amogus");
 
         recyclerView = view.findViewById(R.id.recyclerViewNewsTitle);
         recyclerView.setHasFixedSize(true);
